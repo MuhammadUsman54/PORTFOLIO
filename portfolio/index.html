@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="navbar">
+         <a href="" class="logo">Portfolio.</a>
+         <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+    </nav>
+
+    <sction class="home" id="home">
+        <div class="home-info">
+            <h1>Muhammad Usman</h1>
+            <h2 class="text-animation">I'm a   <span></span>           </h2>
+            <p> "I’m a creative Frontend Developer specializing in building responsive, user-friendly websites.<br> Proficient in HTML, CSS, and Boostrap. I transform ideas into interactive designs.<br> Passionate about learning modern web technologies, I aim to deliver impactful and optimized solutions.<br> Let’s create something amazing!"
+            </p>
+            
+            <div class="btn-sci">
+                <a href="" class="btn">Hire Me</a>
+                <div class="sci">
+                    <a href="https://github.com/MuhammadUsman54?tab=repositories" target="_blank"><i class="bx bxl-github"></i> </a>
+                    <a href="https://www.linkedin.com/in/muhammad-usman-26b761332/" target="_blank">  <i class="bx bxl-linkedin"></i></a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="./assets/me-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </sction>
+
+
+    <section id="about" class="about">
+        <div class="image-about scroll-scale">
+            <img src="assets/me-removebg-preview.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <span>Let me introduce myself</span>
+            <h2>About Me</h2>
+            <h3>A story of good</h3>
+            <p>"Hi, I’m Muhammad Usman Baloch, a Frontend Developer with 3 months of experience in web development. I specialize in creating responsive and user-friendly websites using HTML, CSS, and JavaScript. Passionate about learning and improving.<br> I’m dedicated to delivering creative and impactful web solutions."</p>
+            <div class="btn-box">
+                <a href="#about" class="about-btn">Read More!</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="skills">
+     
+        <div class="skill-heading">
+            <p>Technical and Professional</p>
+            <h1>My Skills</h1>
+        </div>
+
+        <div class="skill-container"> 
+           <div class="skill-box">
+            <div class="icon">
+              <i class="bx bx-desktop service-icon"></i>
+            </div>
+            <div class="box-text">
+              <h2>Frontend Development</h2>
+              <p>
+                Frontend student skilled in HTML, CSS, and JavaScript, focused on creating 
+                interactive and user-friendly web applications.
+              </p>
+            </div>
+          </div>
+        
+          <div class="skill-box">
+            <div class="icon">
+              <i class="bx bx-code-alt service-icon"></i>
+            </div>
+            <div class="box-text">
+              <h2>Web Designer</h2>
+              <p>
+                Skilled in designing responsive websites with intuitive navigation and visually 
+                appealing layouts for seamless user experiences across all devices.
+              </p>
+            </div>
+          </div>
+        
+          <div class="skill-box">
+            <div class="icon">
+              <i class="bx bxs-layer service-icon"></i>
+            </div>
+            <div class="box-text">
+              <h2>Responsive Design</h2>
+              <p>
+                Skilled in designing responsive websites with intuitive navigation and engaging 
+                layouts for seamless user experiences across all devices.
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <section class="project" id="project">
+        <br><br>
+        <div class="project-heading">
+            <p>I have worked on these</p>
+            <h1>Projects</h1>
+        </div>
+        <div class="project-container">
+            <div class="project-box">
+                <div class="project-img">
+                    <img src="assets/expertizo.png" alt="">
+                </div>
+                <div class="project-info">
+                    <h2>Expertizo Clone</h2>
+                    <p>Expertizo is software development webpage.</p>
+                    <a href="https://majestic-strudel-eb6014.netlify.app/" target="_blank"><button class="project-btn">View Project</button></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <div class="project-img">
+                    <img src="assets/facebok login.png" alt="">
+                </div>
+                <div class="project-info">
+                    <h2>Facebok login page Clone</h2>
+                    <p>A famouse social media website login page clone.</p>
+                    <a href="https://facebok-logion-clone.netlify.app/" target="_blank"><button class="project-btn">View Project</button></a>
+                </div>
+            </div>
+            <div class="project-box">
+                <div class="project-img">
+                    <img src="assets/foodpanda.png" alt="">
+                </div>
+                <div class="project-info">
+                    <h2>Foodpanda</h2>
+                    <p>Pakistane biggest food delivery website clone.</p>
+                    <a href="https://meek-sunburst-86aea5.netlify.app/" target="_blank"><button class="project-btn">View Project</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <p>Ask Me Question</p>
+            <h1>Contact</h1>
+        </div>
+        <div class="contact-container">            
+            <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required />
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required />
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+              </div>
+              
+              <button type="submit" class="contact-btn">Send Message</button>
+            </form>
+          </div>
+    </section>
+
+   <footer class="footer">
+    <br>
+    <p>Copyright © 2025 by Muhammad Usman || All Rights Reserved.</p>
+    <a href="#home"><i class="bx bxs-arrow-from-bottom"></i></a>
+   </footer>
+
+</body>
+</html>

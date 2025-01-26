@@ -318,14 +318,16 @@ a {
 
 }
 
+
 .about .image-about img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 50px;
   margin-left: 40px;
   border-radius: 50%;
-  border: 2px solid #7cf03d;
+  background: linear-gradient(135deg, #7cf03d, #1f242d);
 }
+
 
 
 .about-content span {
